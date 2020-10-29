@@ -18,7 +18,9 @@ public class Customer {
 			this.Casado=Casado;
 		}
 	}
-	
-	
+	public boolean Validar() {
+		return this.edad<MaxEdad && this.licencia.length()==9;
+	}
+	//getter setters 
 	
 }
