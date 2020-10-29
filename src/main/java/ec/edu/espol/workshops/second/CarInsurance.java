@@ -6,6 +6,10 @@ public class CarInsurance {
 	private CarInsurance() {}
 	
 	public static int calcularPremium(Customer c) {
-		return 1;
+		int total= BASE;
+		if(c.edad<65 && c.edad> 45) total-=100;
+		if(c.sexo=="M" && c.Casado==false && c.edad<25 ) total+=1500;
+		else if(c.sexo=="F" && c.Casado==true) total-=200;
+		return total;
 	}
 }
