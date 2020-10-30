@@ -17,10 +17,37 @@ public class Customer {
 			this.licencia=licencia;
 			this.Casado=Casado;
 		}
+	 
+		//getter setters 
+	
+	}
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public String getLicencia() {
+		return licencia;
+	}
+	public void setLicencia(String licencia) {
+		this.licencia = licencia;
+	}
+	public boolean isCasado() {
+		return Casado;
+	}
+	public void setCasado(boolean casado) {
+		Casado = casado;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	public void setEdad(int edad) {
+		this.edad = edad;
 	}
 	public boolean Validar() {
 		return this.edad<MaxEdad && this.licencia.length()==9;
 	}
-	//getter setters 
+	
 	
 }
