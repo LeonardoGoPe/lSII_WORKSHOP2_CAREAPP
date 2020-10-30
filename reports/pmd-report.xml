@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2020-10-30T00:31:58.845">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2020-10-30T18:52:47.689">
 <file name="src/main/java/ec/edu/espol/workshops/second/CarInsurance.java">
-<violation beginline="3" endline="18" begincolumn="0" endcolumn="0" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
-ClassWithOnlyPrivateConstructorsShouldBeFinal: A class which only has private constructors should be final
-</violation>
-<violation beginline="3" endline="18" begincolumn="0" endcolumn="0" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
-ClassWithOnlyPrivateConstructorsShouldBeFinal: A class which only has private constructors should be final
-</violation>
 <violation beginline="3" endline="18" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Class comments are required
 </violation>
@@ -63,46 +57,22 @@ UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!
 </violation>
 </file>
 <file name="src/main/java/ec/edu/espol/workshops/second/Customer.java">
-<violation beginline="3" endline="53" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+<violation beginline="3" endline="54" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Class comments are required
 </violation>
-<violation beginline="3" endline="53" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+<violation beginline="3" endline="54" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Class comments are required
 </violation>
-<violation beginline="3" endline="53" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#dataclass" priority="3">
-DataClass: The class 'Customer' is suspected to be a Data Class (WOC=30.000%, NOPA=2, NOAM=6, WMC=12)
+<violation beginline="3" endline="54" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#dataclass" priority="3">
+DataClass: The class 'Customer' is suspected to be a Data Class (WOC=10.000%, NOPA=2, NOAM=8, WMC=12)
 </violation>
-<violation beginline="3" endline="53" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#dataclass" priority="3">
-DataClass: The class 'Customer' is suspected to be a Data Class (WOC=30.000%, NOPA=2, NOAM=6, WMC=12)
+<violation beginline="3" endline="54" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#dataclass" priority="3">
+DataClass: The class 'Customer' is suspected to be a Data Class (WOC=10.000%, NOPA=2, NOAM=8, WMC=12)
 </violation>
 <violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Field comments are required
 </violation>
 <violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Field comments are required
-</violation>
-<violation beginline="5" endline="5" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Field comments are required
-</violation>
-<violation beginline="5" endline="5" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Field comments are required
-</violation>
-<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Field comments are required
-</violation>
-<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Field comments are required
-</violation>
-<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="OneDeclarationPerLine" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#onedeclarationperline" priority="1">
-OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
-</violation>
-<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="OneDeclarationPerLine" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#onedeclarationperline" priority="1">
-OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
-</violation>
-<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Field comments are required
-</violation>
-<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Field comments are required
 </violation>
 <violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
@@ -111,34 +81,28 @@ CommentRequired: Field comments are required
 <violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Field comments are required
 </violation>
-<violation beginline="10" endline="23" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="11" endline="24" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Public method and constructor comments are required
 </violation>
-<violation beginline="10" endline="23" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+<violation beginline="11" endline="24" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Public method and constructor comments are required
 </violation>
-<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 SystemPrintln: System.out.println is used
 </violation>
-<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 SystemPrintln: System.out.println is used
 </violation>
-<violation beginline="30" endline="32" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+<violation beginline="49" endline="51" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Public method and constructor comments are required
 </violation>
-<violation beginline="30" endline="32" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Public method and constructor comments are required
-</violation>
-<violation beginline="33" endline="35" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Public method and constructor comments are required
-</violation>
-<violation beginline="33" endline="35" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Public method and constructor comments are required
-</violation>
-<violation beginline="48" endline="50" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Public method and constructor comments are required
-</violation>
-<violation beginline="48" endline="50" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+<violation beginline="49" endline="51" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Public method and constructor comments are required
 </violation>
 </file>
