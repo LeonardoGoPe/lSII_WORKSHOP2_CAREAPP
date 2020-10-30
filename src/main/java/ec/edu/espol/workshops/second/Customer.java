@@ -7,6 +7,30 @@ public class Customer {
 	boolean Casado;
 	int edad;
 	
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public String getLicencia() {
+		return licencia;
+	}
+	public void setLicencia(String licencia) {
+		this.licencia = licencia;
+	}
+	public boolean isCasado() {
+		return Casado;
+	}
+	public void setCasado(boolean casado) {
+		Casado = casado;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
 	public Customer(int edad, String sexo, String licencia, boolean Casado) 
 	{
 		if(edad>MaxEdad || edad< MinEdad) {
