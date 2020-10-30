@@ -4,7 +4,7 @@ public class Customer {
 	public static final int MaxEdad=80;
 	public static final int MinEdad=18;
 	String sexo,licencia;
-	boolean Casado;
+	boolean casado;
 	int edad;
 	
 	public String getSexo() {
@@ -20,10 +20,10 @@ public class Customer {
 		this.licencia = licencia;
 	}
 	public boolean isCasado() {
-		return Casado;
+		return casado;
 	}
 	public void setCasado(boolean casado) {
-		Casado = casado;
+		this.casado = casado;
 	}
 	public int getEdad() {
 		return edad;
@@ -39,10 +39,10 @@ public class Customer {
 			this.edad= edad;
 			this.sexo=sexo;
 			this.licencia=licencia;
-			this.Casado=Casado;
+			this.casado=Casado;
 		}
 	}
-	public boolean Validar() {
+	public boolean validar() {
 		return this.edad<MaxEdad && this.licencia.length()==9;
 	}
 	//getter setters 
