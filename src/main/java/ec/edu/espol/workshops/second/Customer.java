@@ -1,9 +1,10 @@
 package ec.edu.espol.workshops.second;
 
 public class Customer {
-	public static final int MaxEdad=80;
-	public static final int MinEdad=18;
-	String sexo,licencia;
+	public static final int MaxEdad=80;   /** Maxima edad*/
+	public static final int MinEdad=18;   /** Edad minima*/
+	String sexo;            /** Genero de la persona*/
+	String licencia;
 	boolean Casado;
 	int edad;
 	

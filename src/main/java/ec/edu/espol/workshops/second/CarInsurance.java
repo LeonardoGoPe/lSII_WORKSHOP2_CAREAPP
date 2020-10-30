@@ -1,6 +1,6 @@
 package ec.edu.espol.workshops.second;
 
-public class CarInsurance {
+public final class CarInsurance {
 	
 	public static int  BASE = 500;
 	private CarInsurance() {}
