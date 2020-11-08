@@ -15,7 +15,7 @@ public class Customer {
 		this.sexo = sexo;
 	}
 	public String getLicencia() {
-		return licencia;
+		return this.licencia;
 	}
 	public void setLicencia(String licencia) {
 		this.licencia = licencia;
@@ -32,8 +32,8 @@ public class Customer {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	public Customer(int edad, String sexo, String licencia, boolean Casado){
-		if(edad>MaxEdad || edad< MinEdad) {
+	public Customer(int edad, String sexo, String licencia, boolean casado) {
+		if(edad > MaxEdad || edad < MinEdad) {
 			System.out.println("Imprimir no valido");
 		}else {
 			this.edad= edad;
