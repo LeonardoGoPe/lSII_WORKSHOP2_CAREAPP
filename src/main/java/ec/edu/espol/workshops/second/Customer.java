@@ -1,11 +1,18 @@
 package ec.edu.espol.workshops.second;
 
 public class Customer {
+<<<<<<< HEAD
 	public static final int MaxEdad=80;   /** Maxima edad*/
 	public static final int MinEdad=18;   /** Edad minima*/
 	String sexo;            /** Genero de la persona*/
 	String licencia;
 	boolean Casado;
+=======
+	public static final int MaxEdad=80;
+	public static final int MinEdad=18;
+	String sexo,licencia;
+	boolean casado;
+>>>>>>> branch 'SpotBugs' of https://github.com/LeonardoGoPe/lSII_WORKSHOP2_CAREAPP
 	int edad;
 	
 	public String getSexo() {
@@ -21,10 +28,10 @@ public class Customer {
 		this.licencia = licencia;
 	}
 	public boolean isCasado() {
-		return Casado;
+		return casado;
 	}
 	public void setCasado(boolean casado) {
-		Casado = casado;
+		this.casado = casado;
 	}
 	public int getEdad() {
 		return edad;
@@ -40,7 +47,7 @@ public class Customer {
 			this.edad= edad;
 			this.sexo=sexo;
 			this.licencia=licencia;
-			this.Casado=Casado;
+			this.casado=Casado;
 		}
 	 
 		//getter setters 
@@ -70,7 +77,7 @@ public class Customer {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	public boolean Validar() {
+	public boolean validar() {
 		return this.edad<MaxEdad && this.licencia.length()==9;
 	}
 	
