@@ -5,7 +5,7 @@ When age is entered
 Then show -1
 
 Scenario Outline: Do you exceed the maximum age or not ?
-Given the person is  "<age>" years old
+Given the person is  <age> years old
 When age is entered
 Then they should tell me <answer>
 Examples:
@@ -22,7 +22,7 @@ When age is entered
 Then show -1
 
 Scenario Outline: Are you of legal age or not?
-Given the person is  "<age>" years old
+Given the person is  <age> years old
 When age is entered
 Then they should tell me <answer>
 Examples:
