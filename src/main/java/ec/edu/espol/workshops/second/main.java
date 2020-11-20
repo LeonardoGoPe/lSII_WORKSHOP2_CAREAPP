@@ -19,5 +19,8 @@ public class main {
 		
 		Customer cliente6 = new Customer(16,"F","201598762",false);
 		System.out.println("Cliente 6: "+CarInsurance.calcularPremium(cliente6));
+		
+		Customer cliente7 = new Customer(22,"F","201598769",false);
+		System.out.println("Cliente 6: "+CarInsurance.calcularPremium(cliente7));
 	}
 }
