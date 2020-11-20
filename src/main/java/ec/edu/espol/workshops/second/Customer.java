@@ -39,7 +39,7 @@ public class Customer {
 		this.casado=casado;
 	}
 	public boolean validar() {
-		return (this.edad<MaxEdad) && this.licencia.length()==9 && (this.sexo.equals("M") || this.sexo.equals("F"));
+		return (this.edad<MaxEdad && this.edad>MinEdad) && this.licencia.length()==9 && (this.sexo.equals("M") || this.sexo.equals("F"));
 	}
 	
 	
