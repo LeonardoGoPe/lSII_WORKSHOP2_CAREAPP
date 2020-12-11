@@ -2,7 +2,7 @@ package ec.edu.espol.workshops.second;
 
 public final class CarInsurance {
 	
-	public static final int  BASE = 500;
+	public static final int  BASE = 600;
 	private CarInsurance() {}
 	
 	public static int calcularPremium(Customer c) {
