@@ -33,17 +33,13 @@ public class Customer {
 		this.edad = edad;
 	}
 	public Customer(int edad, String sexo, String licencia, boolean casado) {
-		if(edad > MaxEdad || edad < MinEdad) {
-			System.out.println("Imprimir no valido");
-		}else {
-			this.edad= edad;
-			this.sexo=sexo;
-			this.licencia=licencia;
-			this.casado=casado;
-		}
+		this.edad= edad;
+		this.sexo=sexo;
+		this.licencia=licencia;
+		this.casado=casado;
 	}
 	public boolean validar() {
-		return this.edad<MaxEdad && this.licencia.length()==9;
+		return (this.edad<=MaxEdad && this.edad>=MinEdad) && this.licencia.length()==9 && (this.sexo.equals("M") || this.sexo.equals("F"));
 	}
 	
 	
