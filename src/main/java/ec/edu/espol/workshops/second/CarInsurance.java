@@ -13,6 +13,9 @@ public final class CarInsurance {
 		if(c.edad<65 && c.edad> 45) {
 			total-=100;
 		}
+		if(c.sexo.equals("M") && c.edad<45 && c.edad> 25) {
+			total-=100;
+		}
 		if(c.sexo.equals("M") && c.casado==false && c.edad<25 ) {
 			total+=1500;
 		}
